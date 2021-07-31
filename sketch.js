@@ -29,22 +29,22 @@ function draw(){
     if(!hasDocked){
         spacecraft.x = spacecraft.x + random(-1,1);
 
-        if(keydown("UP_ARROW")){
+        if(keyDown("UP_ARROW")){
             spacecraft.y = spacecraft.y -2
             spacecraft.addImage(spacecraftImage1)
         }
 
-        if(keydown("DOWN_ARROW")){
+        if(keyDown("DOWN_ARROW")){
             spacecraft.y = spacecraft.y +2
             spacecraft.addImage(spacecraftImage)
         }
 
-        if(keydown("LEFT_ARROW")){
+        if(keyDown("LEFT_ARROW")){
             spacecraft.x = spacecraft.x -2
             spacecraft.addImage(spacecraftImage2)
         }
 
-        if(keydown("RIGHT_ARROW")){
+        if(keyDown("RIGHT_ARROW")){
             spacecraft.x = spacecraft.x +2
             spacecraft.addImage(spacecraftImage3)
         }
